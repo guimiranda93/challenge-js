@@ -1,13 +1,9 @@
-console.log("Funcionando");
+const meuArray = [];
+let contador = 0;
 
-function newFunction() {
-	console.log("NovaFuncao");
+while (contador <= 100) {
+	meuArray.push(contador);
+	contador++;
 }
 
-function secondFunction() {
-	console.log("My function");
-}
-
-function thirdFunction() {
-	console.log("My third function");
-}
+// Fazer uma função que soma todos os valores ímpares do array e retorna em um popup (alert)
