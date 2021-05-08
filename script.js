@@ -8,7 +8,9 @@ while (contador <= 100) {
     }
     contador++;
 }
+
 meuArray.push(n);
-alert(meuArray)
+alert("O resultado é: " + meuArray);
+
 
 // Fazer uma função que soma todos os valores ímpares do array e retorna em um popup (alert)
