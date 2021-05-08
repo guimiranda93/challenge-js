@@ -3,8 +3,8 @@ let contador = 0;
 let n = 0;
 
 while (contador <= 100) {
-    if (contador % 2 !== 0) { //verifica se o numero é primo
-        n = n + contador; //se for primo vai somar
+    if (contador % 2 !== 0) {
+        n = n + contador;
     }
     contador++;
 }
